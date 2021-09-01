@@ -6,7 +6,7 @@ import Player from "./Components/Player";
 import { useStateValue } from './Components/StateProvider'
 
 const s = new SpotifyWebApi();
-//
+
 function App() {
   // const [token, setToken] = useState(null)
   const [{ user, token }, dispatch] = useStateValue();
